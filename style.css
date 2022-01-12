@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #cec8c8;
+  font-weight: 100;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-right: 300px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: overline;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+a:visited {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-margin {
+  margin-left: 200px;
+  height: 222px;
+}
+.logo {
+  max-width: 60px;
+}
+.intro {
+  margin-left: 200px;
+}
