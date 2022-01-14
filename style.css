@@ -1,17 +1,22 @@
 h1 {
   font-family: "Open Sans", sans-serif;
-  font-size: 96px;
+  font-size: 72px;
   font-weight: bold;
 }
 h2 {
   font-family: "Open Sans", sans-serif;
+  font-size: 18px;
   color: #cec8c8;
   font-weight: 100;
 }
 h3 {
   font-size: 24px;
   font-weight: 100;
-  margin-right: 300px;
+  margin-bottom: 100px;
+}
+p {
+  font-size: 12px;
+  font-weight: 200;
 }
 li {
   list-style: none;
@@ -38,5 +43,58 @@ a:visited {
   max-width: 60px;
 }
 .intro {
+  margin-top: 200px;
   margin-left: 200px;
+}
+.project-home-container {
+  /*border: 1px solid black;*/
+  margin: 0 auto;
+  margin-left: 200px;
+}
+.row-one-projects {
+  margin-top: 50px;
+}
+.zee-zee-img,
+.weather-app-img,
+.yogasphere-img {
+  /*border: 1px solid grey;*/
+  max-width: 500px;
+  margin-top: 5px;
+  padding: 1px;
+}
+.zee-zee-img {
+  position: relative;
+  width: 99%;
+  max-width: 500px;
+}
+.yogasphere-img {
+  margin-bottom: 100px;
+}
+.zeezee-img {
+  display: block;
+  max-width: 500px;
+  height: auto;
+}
+.project-one {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 495px;
+  height: 495px;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  padding: 80px;
+}
+.project-one:hover {
+  opacity: 50;
+}
+.project-one-hover {
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+.project-one-hover:hover {
+  text-decoration: none;
 }
