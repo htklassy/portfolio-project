@@ -135,3 +135,66 @@ a:visited {
   opacity: 80;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin: none;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  .intro {
+    margin: 100px auto;
+  }
+  .project-home-container {
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+  }
+  .navbar-margin {
+    display: none;
+  }
+  .zee-zee-img,
+  .weather-app-img,
+  .yogasphere-img {
+    /*border: 1px solid grey;*/
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: -20px;
+    max-width: 300px;
+  }
+  .yogasphere-img {
+    display: none;
+  }
+  .project-one {
+    display: none;
+  }
+  .project-one:hover {
+    display: none;
+  }
+  .project-two {
+    display: none;
+  }
+  .project-two:hover {
+    display: none;
+  }
+  .project-three {
+    display: none;
+  }
+  .project-three:hover {
+    display: none;
+  }
+}
